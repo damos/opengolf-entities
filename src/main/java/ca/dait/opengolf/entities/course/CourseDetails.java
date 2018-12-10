@@ -8,6 +8,25 @@ public class CourseDetails {
     public static class Hole{
         private double lat;
         private double lon;
+
+        public double getLat(){
+            return this.lat;
+        }
+
+        public double getLon(){
+            return this.lon;
+        }
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public String getCountry(){
+        return this.country;
+    }
+    public Hole[] getHoles(){
+        return this.holes;
     }
 
 }

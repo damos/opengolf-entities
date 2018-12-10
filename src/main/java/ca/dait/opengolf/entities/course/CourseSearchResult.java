@@ -6,4 +6,8 @@ public class CourseSearchResult {
     public CourseSearchResult(Course results[]){
         this.results = results;
     }
+
+    public Course[] getResults(){
+       return this.results;
+    }
 }

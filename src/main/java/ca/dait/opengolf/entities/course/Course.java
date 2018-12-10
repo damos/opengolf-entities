@@ -12,4 +12,12 @@ public class Course {
         this.id = id;
         this.details = details;
     }
+
+    public String getId(){
+        return this.id;
+    }
+
+    public CourseDetails getDetails(){
+        return this.details;
+    }
 }
