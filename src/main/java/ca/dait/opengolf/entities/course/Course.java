@@ -1,6 +1,7 @@
 package ca.dait.opengolf.entities.course;
 
 public class Course {
+    private Long id;
     private String remoteId;
     private Double distance;
     private String facilityName;
@@ -14,6 +15,14 @@ public class Course {
     public Course(){}
     public Course(String remoteId){
         this.remoteId = remoteId;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getRemoteId() {
